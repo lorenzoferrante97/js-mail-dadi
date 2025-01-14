@@ -30,3 +30,12 @@ isUtenteInvitato == true ? console.log('Puoi accedere alla festa') : console.log
 
 
 // esercizio dadi
+
+// workflow
+
+// 1. generare num randomico per l'utente
+// 2. generare num randomico per computer
+// 3. controllo su chi ha ottenuto il num maggiore
+//      - se num utente > num cpu: utente ha vinto
+//      - se num utente < num cpu: utente ha perso
+//      - altrimenti: utente e cpu hanno lo stesso num
