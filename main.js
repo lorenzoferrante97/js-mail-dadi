@@ -52,3 +52,5 @@ if (numPlayer > numCpu) {
 } else {
     console.log(`Pareggio!`)
 }
+
+// end code
