@@ -39,3 +39,16 @@ isUtenteInvitato == true ? console.log('Puoi accedere alla festa') : console.log
 //      - se num utente > num cpu: utente ha vinto
 //      - se num utente < num cpu: utente ha perso
 //      - altrimenti: utente e cpu hanno lo stesso num
+
+let numPlayer = Math.floor(Math.random() * 6) + 1;
+let numCpu = Math.floor(Math.random() * 6) + 1;
+console.log(`Utente tira il dado ed esce: ${numPlayer}`)
+console.log(`CPU tira il dado ed esce: ${numCpu}`)
+
+if (numPlayer > numCpu) {
+    console.log(`Utente ha vinto!`)
+} else if (numPlayer < numCpu) {
+    console.log(`Utente ha perso!`)
+} else {
+    console.log(`Pareggio!`)
+}
